@@ -48,6 +48,7 @@ namespace aspnet_core_dotnet_core
             }
 
             app.UseStaticFiles();
+            app.UseSession();
             app.UseCookiePolicy();
             app.UseRouting();
             app.UseAuthorization();
